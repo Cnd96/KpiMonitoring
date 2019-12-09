@@ -1,0 +1,51 @@
+
+.bothAchievedKpiLabel::after{
+    // border: 1.6px solid #4dbd74;
+    background-color: #b9f6ca;
+    border-radius: 5%;
+    color:  black;
+    padding: 1vw;
+    font-weight: 450;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    content: "Both Achieved";
+  }
+  
+  .bothNotAchievedKpiLabel::after{
+    // border: 1.6px solid #ff4444;
+    background-color: #ef9a9a;
+    border-radius: 5%;
+    color:  black;
+    padding: 1vw;
+    font-weight: 450;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    content: "Both Not Achieved";  
+  }
+  
+  .monthOnlyAchievedKpiLabel::after{
+    // border: 1.6px solid #ffeb3b;
+    background-color: #fff59d;
+    border-radius: 5%;
+    color:  black;
+    padding: 1vw;
+    font-weight: 450;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    content: "Only Month Achieved"; 
+  }
+  .yearOnlyAchievedKpiLabel::after{
+    // border: 1.6px solid #FF8800;
+    background-color: #ffcc80;
+    border-radius: 5%;
+    color:  black;
+    padding: 1vw;
+    font-weight: 450;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    content: "Only Year Achieved";  
+  }

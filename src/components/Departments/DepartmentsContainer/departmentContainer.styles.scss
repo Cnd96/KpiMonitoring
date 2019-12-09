@@ -1,0 +1,20 @@
+
+.department-menu {
+    // width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+.catergoryFlexContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.catergoryFlexContainerCard{
+  // background-color: #f1f1f1;
+  // width: 15%;
+  margin: 6px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 3vw;
+}

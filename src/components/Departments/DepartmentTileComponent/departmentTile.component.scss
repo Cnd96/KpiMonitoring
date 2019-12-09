@@ -1,0 +1,24 @@
+
+  .departmentCard {
+    background-color: #63c2de;
+    border:3px black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.2s;
+    width: 15%;
+    height:8vw;
+    line-height: 8vw;
+    text-align: center;
+    margin: 1.8vw;
+    border-radius: 5px;
+  }
+  
+  .departmentCard:hover {
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .departmentContainer {
+    vertical-align: middle;
+    color:white;
+    font-size: 2vw;
+    margin: auto;
+  }

@@ -1,0 +1,15 @@
+.measuringUnit-Form {
+    width: 80%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    // margin-left: 40px;
+    .title {
+      margin: 10px 0;
+    }
+  
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
